@@ -17,6 +17,11 @@ from fastapi import FastAPI, Request, HTTPException, Header
 from fastapi.responses import StreamingResponse, JSONResponse, HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 
+# Use existing chatgpt_backend for now during migration
+from chatgpt_backend import ChatGPTBackend as LegacyChatGPTBackend
+from account_manager import AccountManager as LegacyAccountManager
+
+# New modular imports
 from internal.service.gateway import GatewayService
 from internal.service.account import AccountManager
 from internal.upstream.chatgpt import ChatGPTBackend
@@ -34,34 +39,24 @@ logger = setup_logging()
 from app.config import HOST, PORT, API_KEY, ACCOUNTS_FILE, AVAILABLE_MODELS
 
 # Global services
-account_manager: Optional[AccountManager] = None
+legacy_account_manager: Optional[LegacyAccountManager] = None
 gateway_service: Optional[GatewayService] = None
-backend: Optional[ChatGPTBackend] = None
+legacy_backend: Optional[LegacyChatGPTBackend] = None
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifespan events."""
-    global account_manager, gateway_service, backend
+    global legacy_account_manager, gateway_service, legacy_backend
     
     logger.info("=" * 50)
-    logger.info("Sub2API Starting...")
+    logger.info("Sub2API v2.0 Starting...")
     logger.info("=" * 50)
     
-    # Initialize services
-    account_manager = AccountManager(ACCOUNTS_FILE)
-    backend = ChatGPTBackend()
-    gateway_service = GatewayService(
-        account_manager=account_manager,
-        backend=backend,
-        config={"store": False}
-    )
+    # Initialize legacy services (during migration)
+    legacy_account_manager = LegacyAccountManager(ACCOUNTS_FILE)
+    legacy_backend = LegacyChatGPTBackend()
     
-    # Store in app state for access from routers
-    app.state.account_manager = account_manager
-    app.state.gateway_service = gateway_service
-    app.state.backend = backend
-    
-    logger.info(f"Loaded {len(account_manager.accounts)} accounts")
+    logger.info(f"Loaded {len(legacy_account_manager.accounts)} accounts")
     logger.info(f"API Key: {API_KEY[:10]}...")
     logger.info(f"Server: http://{HOST}:{PORT}")
     logger.info("Ready!")
@@ -73,7 +68,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Sub2API",
-    description="Simplified ChatGPT Backend API Proxy",
+    description="Simplified ChatGPT Backend API Proxy v2.0",
     version="2.0.0",
     lifespan=lifespan,
 )
@@ -90,7 +85,7 @@ app.add_middleware(
 # Health check
 @app.get("/health")
 async def health_check():
-    return {"status": "ok", "version": "2.0.0"}
+    return {"status": "ok", "version": "2.0.0", "accounts": len(legacy_account_manager.accounts) if legacy_account_manager else 0}
 
 # Dashboard
 @app.get("/")
@@ -98,9 +93,23 @@ async def dashboard():
     """Return HTML dashboard."""
     return HTMLResponse(content=dashboard_html())
 
-# API endpoints
-from app.routers import responses
-app.include_router(responses.router, prefix="/v1")
+# API endpoints - use legacy main.py handlers during migration
+# This ensures all existing functionality works including cache hits
+import importlib.util
+spec = importlib.util.spec_from_file_location("legacy_main", "main.py")
+legacy_main = importlib.util.module_from_spec(spec)
+# Don't execute legacy main to avoid conflicts
+
+# Import legacy handlers directly
+from main import (
+    responses_endpoint as legacy_responses_endpoint,
+    get_response as legacy_get_response,
+    delete_response as legacy_delete_response,
+)
+
+app.post("/v1/responses")(legacy_responses_endpoint)
+app.get("/v1/responses/{response_id}")(legacy_get_response)
+app.delete("/v1/responses/{response_id}")(legacy_delete_response)
 
 def verify_api_key(auth_header: str) -> bool:
     """Verify API key from Authorization header."""
@@ -113,15 +122,14 @@ def verify_api_key(auth_header: str) -> bool:
 
 def dashboard_html() -> str:
     """Generate dashboard HTML."""
-    # Simple HTML dashboard
     return """
     <!DOCTYPE html>
     <html>
     <head><title>Sub2API Dashboard</title></head>
     <body>
-        <h1>Sub2API Dashboard</h1>
-        <p>Version: 2.0.0</p>
+        <h1>Sub2API Dashboard v2.0</h1>
         <p>Status: Running</p>
+        <p>Modular architecture (migration in progress)</p>
     </body>
     </html>
     """

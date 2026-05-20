@@ -336,6 +336,9 @@ async def responses_endpoint(request: Request):
         else:
             # Non-streaming response (collect all SSE content)
             full_response = ""
+            completed_response = None
+            usage_info = None
+            
             async for chunk in backend.responses(
                 access_token=account.access_token,
                 input_data=input_data,
@@ -353,28 +356,47 @@ async def responses_endpoint(request: Request):
                         if data_str and data_str != '[DONE]':
                             try:
                                 parsed = json.loads(data_str)
-                                if parsed.get('type') == 'response.output_text.delta':
+                                event_type = parsed.get('type', '')
+                                
+                                if event_type == 'response.output_text.delta':
                                     full_response += parsed.get('delta', '')
-                                elif parsed.get('type') == 'text':
+                                elif event_type == 'text':
                                     full_response += parsed.get('text', '')
+                                elif event_type == 'response.completed':
+                                    # Extract completed response with usage info
+                                    if 'response' in parsed:
+                                        completed_response = parsed['response']
+                                    if 'usage' in parsed.get('response', {}):
+                                        usage_info = parsed['response']['usage']
+                                        cached = usage_info.get('input_tokens_details', {}).get('cached_tokens', 0)
+                                        logger.info(f"Cache hit: {cached} tokens cached")
                             except:
                                 pass
             
             await account_manager.report_success(account)
             
-            return {
-                "id": f"resp_{os.urandom(12).hex()}",
+            response_data = {
+                "id": completed_response.get('id', f"resp_{os.urandom(12).hex()}") if completed_response else f"resp_{os.urandom(12).hex()}",
                 "object": "response",
-                "created_at": int(asyncio.get_event_loop().time()),
-                "model": model,
+                "created_at": completed_response.get('created_at', int(asyncio.get_event_loop().time())) if completed_response else int(asyncio.get_event_loop().time()),
+                "model": completed_response.get('model', model) if completed_response else model,
                 "output": [
                     {
                         "type": "message",
                         "role": "assistant",
                         "content": [{"type": "output_text", "text": full_response}],
                     }
-                ],
+                ] if not (completed_response and 'output' in completed_response) else completed_response['output'],
+                "status": "completed",
             }
+            
+            # Include usage info if available (contains cache hit details)
+            if usage_info:
+                response_data['usage'] = usage_info
+                cached = usage_info.get('input_tokens_details', {}).get('cached_tokens', 0)
+                logger.info(f"Non-streaming response with {cached} cached tokens")
+            
+            return response_data
     
     except HTTPException:
         raise
