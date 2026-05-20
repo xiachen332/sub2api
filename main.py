@@ -657,7 +657,9 @@ async def responses_endpoint(request: Request):
             # If we have completed response with output, return it
             if completed_response and 'output' in completed_response:
                 logger.info(f"Returning completed response with {len(completed_response['output'])} output items")
-                return {
+                
+                # Build response with usage info if available
+                response_data = {
                     "id": completed_response.get('id', f"resp_{os.urandom(12).hex()}"),
                     "object": "response",
                     "created_at": completed_response.get('created_at', int(asyncio.get_event_loop().time())),
@@ -665,6 +667,15 @@ async def responses_endpoint(request: Request):
                     "output": completed_response['output'],
                     "status": completed_response.get('status', 'completed'),
                 }
+                
+                # Include usage info (contains cache hit details)
+                if 'usage' in completed_response:
+                    response_data['usage'] = completed_response['usage']
+                    usage = completed_response['usage']
+                    cached = usage.get('input_tokens_details', {}).get('cached_tokens', 0)
+                    logger.info(f"Cache hit: {cached} tokens cached")
+                
+                return response_data
             
             # Fallback: build simple text output
             logger.info(f"Non-streaming response ready, length={len(full_response)}")
