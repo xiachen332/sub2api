@@ -1,0 +1,216 @@
+{
+  "accounts": [
+    {
+      "name": "greenechodak114591@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA2NzgxMiwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6IjQxODEzNTdkLWQzMjktNDQwYi1hYjY4LTk1NzUwYjMzNzY2MCIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1zdUxMeUhyYVg1dExEcGN4d1N1TmNVSVVfXzQxODEzNTdkLWQzMjktNDQwYi1hYjY4LTk1NzUwYjMzNzY2MCIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1zdUxMeUhyYVg1dExEcGN4d1N1TmNVSVUiLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLXN1TEx5SHJhWDV0TERwY3h3U3VOY1VJVSJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJncmVlbmVjaG9kYWsxMTQ1OTFAb3V0bG9vay5kZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwiaWF0IjoxNzc5MjAzODEyLCJpc3MiOiJodHRwczovL2F1dGgub3BlbmFpLmNvbSIsImp0aSI6IjQ0MDMyOWE0LTI2YjEtNDEyNC1hYWYyLWZiYmY1ZDhmYmQ0OSIsIm5iZiI6MTc3OTIwMzgxMiwicHdkX2F1dGhfdGltZSI6MTc3OTIwMzgwNjYxMywic2NwIjpbIm9wZW5pZCIsImVtYWlsIiwicHJvZmlsZSIsIm9mZmxpbmVfYWNjZXNzIiwibW9kZWwucmVxdWVzdCIsIm1vZGVsLnJlYWQiLCJvcmdhbml6YXRpb24ucmVhZCIsIm9yZ2FuaXphdGlvbi53cml0ZSJdLCJzZXNzaW9uX2lkIjoiYXV0aHNlc3NfcVQ2NHNiZ2lLdmhZem5zMXBmMlBhYmNlIiwic2wiOnRydWUsInN1YiI6ImF1dGgwfE9vcGNsbExCOGlmVmdzUndqZU1NNll6OCJ9.DnPX8VQbEhIQXhKft46FEhDC8ghZoMvWqcH9vyYBUUUeQIv7eeaUu6_YyIKDaKAe-BxRzhg-yy0jiEfOgYe2q5m9rE-oKN6ReH2xpnLNb2iNolYKh7zJEvhit45YNJNXiZv-5Lmam54kv1yBn7GbhYnW-YzHsJMYJ6k--ius-unUafpjP3rTk4qwgWOyMxUfXFF-nocsSDKVqCv2_EaSVeOvCYYo8inC1p_bJZG0FUrNDNISX5mZOMFdfwqgRa00UPviQb0gcZy7pLD-4kuWc4meUtLwqCAU_Z6gavwGraxCN9K6zZISi-7wf1zQEHI_uDFORHsnh5PjcLU2QramxB5ng9V9Gq__cCguZScTK5SWr9mlLlKWfnWV8HI9g5BQdnUAhG3Rp1whU1x5gzR4QJlvd99z3XnHr0QRo4VDxoYlQqFLZfGdykN1_pQ2u35dArlihlqZ5uDZIb2gGLAQ7HlKPjnWxwcWwKU7d9PZi9d_V2oUBd0z5LiJVMkqsFR629v35kV5Fm6vYkT2gNmNrpcdjBeKpuhsLb4xnFJTJi_-rBXrl_Zu4W3LTz5OL0ei4IqSlKVth9rXhNo7OqteXDyzjmsRQ7g2h-XkIrQ2TsNTKTdKPD_4mHGSqA2exJt7LjbO1DpqpFUD2Yt7Hfc4IaaLMsZAjFovwYqsRwoPtYg",
+        "chatgpt_account_id": "4181357d-d329-440b-ab68-95750b337660",
+        "chatgpt_user_id": "user-suLLyHraX5tLDpcxwSuNcUIU",
+        "email": "greenechodak114591@outlook.de",
+        "expires_at": "2026-05-29T15:16:52+00:00",
+        "expires_in": 863993,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "greenechodak114591@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T15:16:58.464573+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    },
+    {
+      "name": "alysescank784041@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA2Nzg4MywiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6ImVmNzRkM2Q4LTMwNzctNGIzNy05M2E3LTk2YTE4YTRiOGRmZCIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1ab2tpbXpBcFB0S0dyZ251YlNqRjNMZ3dfX2VmNzRkM2Q4LTMwNzctNGIzNy05M2E3LTk2YTE4YTRiOGRmZCIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1ab2tpbXpBcFB0S0dyZ251YlNqRjNMZ3ciLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLVpva2ltekFwUHRLR3JnbnViU2pGM0xndyJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJhbHlzZXNjYW5rNzg0MDQxQG91dGxvb2suZGUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImlhdCI6MTc3OTIwMzg4MywiaXNzIjoiaHR0cHM6Ly9hdXRoLm9wZW5haS5jb20iLCJqdGkiOiJmMmQxZjY2MS04N2YxLTQxYzgtOThiZC02NDc0ZmQ5MjRmY2YiLCJuYmYiOjE3NzkyMDM4ODMsInB3ZF9hdXRoX3RpbWUiOjE3NzkyMDM4ODA1MTgsInNjcCI6WyJvcGVuaWQiLCJlbWFpbCIsInByb2ZpbGUiLCJvZmZsaW5lX2FjY2VzcyIsIm1vZGVsLnJlcXVlc3QiLCJtb2RlbC5yZWFkIiwib3JnYW5pemF0aW9uLnJlYWQiLCJvcmdhbml6YXRpb24ud3JpdGUiXSwic2Vzc2lvbl9pZCI6ImF1dGhzZXNzX0ppYThLVlo5bFFoWnQ3S1F4T0FjcHBQTSIsInNsIjp0cnVlLCJzdWIiOiJhdXRoMHw4ZUVFeFdNZWFwckhQWlZTUFJJcUZSckMifQ.3NtkJj6-e7bC7WZSdo1ylFgdNcbmsL5Ca96ELZKh2poNBbAm6AXk1L9mhNfveaR_Q-I3Wph8_tCMQcnQadhQQ9MbiTF02uOr0oIAF4M_sUqQeDTrXDTXPpQb2ZENYmUzCZWbTDVy3JokBvG5_Ce-LqswQnngEDk33teC0bw67zzw39yrOnqS8LKbJMQWEsb0QSORb_wtzaX06xyv23_VMMs0_pKf3m2oR1Mzg9ZtpoIiM1I_jGhZy1W0uhvzh8RjxSIXKl0buzSfhBmrDciKqLyDtvpAg02QO-dt-SKvqVGywzw3HkLZITH7zM34ha3cLkf911niV4EAdYQavwYEUNloHYH9PyNraxTNTyP_nY8TIAVf0viKMlEUY9weDACAS6VsJbyyZLgCiICb_pcFmmV3i_-9JrNklputbKyspgp-jLHCZuwSawtLHSL-Zzprk4zNd-xhyLayLzgI6p9lI6BM0S1dOnG1j9tkD8m5WQUGKTwpYvNPhly9eV512yJHaPlIL7n86PzqOK6iFxSExzyUwS_BIspUX-tnJN8KPrfwuK6eElL0XZsBUrT1N6BatnTEQF-J74JNEBCdSk4MCbTYdifpDTtmVIEjE2cfvO9Grjvg_iyvnONZhx15fqSPRCz5zq2O_tVblpV1s5loCqqwb1sZ8s5Z0quRwl6cImI",
+        "chatgpt_account_id": "ef74d3d8-3077-4b37-93a7-96a18a4b8dfd",
+        "chatgpt_user_id": "user-ZokimzApPtKGrgnubSjF3Lgw",
+        "email": "alysescank784041@outlook.de",
+        "expires_at": "2026-05-29T15:18:03+00:00",
+        "expires_in": 863995,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "alysescank784041@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T15:18:07.864102+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    },
+    {
+      "name": "williemaecorpus2513@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA2NzM5MSwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6IjViYWI1NWNiLTNlYTUtNDU2YS04Yzc1LWYxZjRkYmM4MGY4OCIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1qVEY5NGhPTUVLVmFkb2lVYklVeXp0S29fXzViYWI1NWNiLTNlYTUtNDU2YS04Yzc1LWYxZjRkYmM4MGY4OCIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1qVEY5NGhPTUVLVmFkb2lVYklVeXp0S28iLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLWpURjk0aE9NRUtWYWRvaVViSVV5enRLbyJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJ3aWxsaWVtYWVjb3JwdXMyNTEzQG91dGxvb2suZGUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImlhdCI6MTc3OTIwMzM5MSwiaXNzIjoiaHR0cHM6Ly9hdXRoLm9wZW5haS5jb20iLCJqdGkiOiI2ODI2NzVhYy1iOWE4LTQ5NTItYjBmMy0zZjM5Yjg3OTljYjUiLCJuYmYiOjE3NzkyMDMzOTEsInB3ZF9hdXRoX3RpbWUiOjE3NzkyMDMzODgzNDYsInNjcCI6WyJvcGVuaWQiLCJlbWFpbCIsInByb2ZpbGUiLCJvZmZsaW5lX2FjY2VzcyIsIm1vZGVsLnJlcXVlc3QiLCJtb2RlbC5yZWFkIiwib3JnYW5pemF0aW9uLnJlYWQiLCJvcmdhbml6YXRpb24ud3JpdGUiXSwic2Vzc2lvbl9pZCI6ImF1dGhzZXNzX3ZoZ3RnTGphNGlzQVFoNjgyY0lYMTQwbCIsInNsIjp0cnVlLCJzdWIiOiJhdXRoMHxIV2JGNjE2TVM3V3pyNzNXcEhQRHhJNUwifQ.hX4tZRIxsJ6wJvjUBF0wxBmrr7Fml9JPgFhjezZKl_cGGSSjmHW_VSWYWbHELz90gnhyIJcdZqfPY40nKQA8MdeRcCmto00WoRvFKJWhKGUrQF5S1DwVMhhLH0QBo1DVA42t70V6VQvI-TutXTtU0BKEx8Zj9MscwqwKVljkNk-SosCnw3fjNRdtAddpvhZB86pY-LljZoSg0aSfgzgkxdtUceTQKlHmJP2sgGWTzpxT7pOSOSwIUWHWTy4IJw5-qBQ8ZwZ8X86h7Xd-11V78E1Rmqcq0z9Hk6lGVbR4T8p1rBi9Yu0gJj9F2HgAX_SBu3ivH9VGxUUn4pMvI48dpIfIExcF8uaHzraCu2vK-5MJm07lco6xYkaINsrWGqSzGgZkMngR9VUMMbexljdBCelayAIegqXKX7MLkcI_0Ci0IicZSFum4sOR2ZSxc6n5Zkd4Hrn_usX-atKiKieF2-LRWXM8L3BeX07Vw0bFW70bSE6NjIb3ZuDiYI0M1egYKF-WRQTFcy5UVDgQjKay5TW_s6nUIiE985LLzKWi_iCIo2ZNa2IbfKSp8WJMNWdPb7jDC4LCKvoctRKZDMf-x7yZVGfCpPBr7eSQ6eVTnyt2ITAjEDn4riCHc0c0ZGGMrFOSFFGdRtFOmL97oRiyVeUYFhSGwTa1AisaCVKVRtc",
+        "chatgpt_account_id": "5bab55cb-3ea5-456a-8c75-f1f4dbc80f88",
+        "chatgpt_user_id": "user-jTF94hOMEKVadoiUbIUyztKo",
+        "email": "williemaecorpus2513@outlook.de",
+        "expires_at": "2026-05-29T15:09:51+00:00",
+        "expires_in": 863995,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "williemaecorpus2513@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T15:09:55.133966+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    },
+    {
+      "name": "louannawyatt81252@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA2Nzg3MywiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6IjU3ZGNkZTM3LTU1OGUtNDAzYS04ZjMzLTM2NmI0OWI2MjY4MiIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1DaXJ5UFFGcWxJeHNXOThSenRTS0hyVzdfXzU3ZGNkZTM3LTU1OGUtNDAzYS04ZjMzLTM2NmI0OWI2MjY4MiIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1DaXJ5UFFGcWxJeHNXOThSenRTS0hyVzciLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLUNpcnlQUUZxbEl4c1c5OFJ6dFNLSHJXNyJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJsb3Vhbm5hd3lhdHQ4MTI1MkBvdXRsb29rLmRlIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJpYXQiOjE3NzkyMDM4NzMsImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiYjViODM5YWQtNjNlYi00MTRhLTg1YmYtM2I4Yzg1ZDU0MTEyIiwibmJmIjoxNzc5MjAzODczLCJwd2RfYXV0aF90aW1lIjoxNzc5MjAzODcwNzczLCJzY3AiOlsib3BlbmlkIiwiZW1haWwiLCJwcm9maWxlIiwib2ZmbGluZV9hY2Nlc3MiLCJtb2RlbC5yZXF1ZXN0IiwibW9kZWwucmVhZCIsIm9yZ2FuaXphdGlvbi5yZWFkIiwib3JnYW5pemF0aW9uLndyaXRlIl0sInNlc3Npb25faWQiOiJhdXRoc2Vzc19jZ3BNNnZWbGV3c3hWbnRhU2pYVUkyZnQiLCJzbCI6dHJ1ZSwic3ViIjoiYXV0aDB8YkhEZmFCS3JUZ1ZYNjhreDNDTDFpNGxjIn0.VJajrSOAHOlmIfvKIU1wxgAH5XY-6ILwFFswU644b43EUNyQY9Mw9NM1HUXmVU8Z6ek1MX7_gQ6tAVc4iEmU2J8kPleeiNX-yuv4Zld1SC4jJ8Pca23SkcqvbYw7zKT2bPR1HRkys3wcPO6F5y3qb_8Yz3cQEsGliUu14AqdAKj6h2xJo9t_68dwyTRNr6GmfOcWgkCeZiScfRU08--c8Wp_Rxkja7M49-AA8vfADwZPeoQ36DicPvKDPzcLOhxP36WQc3690CJLCTd8RDdBhYFGWHGD3KIystKGIbSjbBrbDTw-ulQ3nY2jm40ICTYC7HiRpNU35e1XUI_qbzQ1ZJx0kM41068_MBCCrv5UndVj003Kpl8q_2CtVfNU9Pybec1IFZWGyD9Q4lPuvpKzLGpbqR60VbPpEVhB7ktTyzCvBa3KPcnNEaBm22OYY2FO1qYdI8LgzkXFZ_0h4atXftgDJzrA0GG_h2FaZLJ1wcKmsKEreD7XL68qrZec_-pGr_Qe5nUXQlkGdbkF7iq-Og3PDiS2iy2h9JNIy0PddTppBQfhpmF42ikLIEKIYdHv4xpHnbZVbq9x0-0mbk0sfbpgb-V48ec5xrUnJ1znqkh4gDrRgKGtEGw59oUktY7ocEaed0DPrGqOgrJsSuI8PkrRztH8wt2AWMO-qighifA",
+        "chatgpt_account_id": "57dcde37-558e-403a-8f33-366b49b62682",
+        "chatgpt_user_id": "user-CiryPQFqlIxsW98RztSKHrW7",
+        "email": "louannawyatt81252@outlook.de",
+        "expires_at": "2026-05-29T15:17:53+00:00",
+        "expires_in": 863993,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "louannawyatt81252@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T15:17:59.196688+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    },
+    {
+      "name": "rykerhogberg1965@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA3MjI1OSwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6IjI5OTFkNzE4LWU3ODItNGE3MS05NDVlLTY3MGQwNjk2NTA0YyIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1MS3AwdkFhNlRncXVMcUx1cGszSW84bk1fXzI5OTFkNzE4LWU3ODItNGE3MS05NDVlLTY3MGQwNjk2NTA0YyIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1MS3AwdkFhNlRncXVMcUx1cGszSW84bk0iLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLUxLcDB2QWE2VGdxdUxxTHVwazNJbzhuTSJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJyeWtlcmhvZ2JlcmcxOTY1QG91dGxvb2suZGUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImlhdCI6MTc3OTIwODI1OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLm9wZW5haS5jb20iLCJqdGkiOiJmYjFlZjRjMS1iNTg1LTQ1ZTctODFjNi1lNjRiNGI3Nzk2NzEiLCJuYmYiOjE3NzkyMDgyNTksInB3ZF9hdXRoX3RpbWUiOjE3NzkyMDgyNTU3NTYsInNjcCI6WyJvcGVuaWQiLCJlbWFpbCIsInByb2ZpbGUiLCJvZmZsaW5lX2FjY2VzcyIsIm1vZGVsLnJlcXVlc3QiLCJtb2RlbC5yZWFkIiwib3JnYW5pemF0aW9uLnJlYWQiLCJvcmdhbml6YXRpb24ud3JpdGUiXSwic2Vzc2lvbl9pZCI6ImF1dGhzZXNzX0dCMHRoaW5VdzA3T29WekxMYlJiek03dSIsInNsIjp0cnVlLCJzdWIiOiJhdXRoMHxiR1k4T05sR0Z4UE9QQlRmVUJlekNQZ04ifQ.ZrOMbJ9lt5RdtMOuQs2jKX-RVHYL9o9enrQTIDDpnJ-ZPOQqG9by1PgSRCk1VyQoLE6UQ_3MWLwMMoR4Hu0jPZSiu_zZMurUUnY10j4fr05VIdmLob74T9XoIZfTK1Vc5NgbwCy3-XxB2oG7hRziuC6QYZdN0XKVNLvEtgorBXRAzk9rTAskWal-leA0R1df7VqiRNMgN7IOagiDxogDudd_gWB09SENuufuqnYNpwvGrmJT4A1kvHwrnfd4qfjPnbVwkVdn79B3B7ZnB5djy-sERpL-wKHlOTP545ukw1aj2Cq6TuS4EjT4lmigNnnVlgTHhyllPheZTXNpGH0AUShvnHFA4AABHTPJp3ZpdtNMhl6HUX1gOkzgR2-iwfzGyGZCL6wnGdpqx0iKBbfh1RwF79_bLIO4fUe32Dwo2QTM25qhFffqWEuYQbdRaxqSXAZVkrt2yzOrDHkp3jGUJAslu2fu6WRn0WQost8p-gOF3ppH3tFcbSncBYgGBPpiIjMvz_ZCkh7HdvNVpQEuW5x5_MaUBiWE7udayqBZdKsZV-B-L6tUOqrew36TLAeylypHNTBsOWfJ8UheBsGSPaak0fBnlHAmLC0uYge1dKDJfctvvqNMCDtUgmmG_rexlkIRTZlNllVHMeNA9Lmt_SuSCNHizIpx5_FTRKTLfVc",
+        "chatgpt_account_id": "2991d718-e782-4a71-945e-670d0696504c",
+        "chatgpt_user_id": "user-LKp0vAa6TgquLqLupk3Io8nM",
+        "email": "rykerhogberg1965@outlook.de",
+        "expires_at": "2026-05-29T16:30:59+00:00",
+        "expires_in": 863994,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "rykerhogberg1965@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T16:31:04.478071+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    },
+    {
+      "name": "mileychero080739@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA3MjI1MiwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6ImUwYWM0NzlhLWE2ZDUtNGUwOS04MzU4LWM1NDdhN2ZhM2E0NiIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1QcXNkWGhldGtmOGNHMHFiS2ttVnZmMGZfX2UwYWM0NzlhLWE2ZDUtNGUwOS04MzU4LWM1NDdhN2ZhM2E0NiIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1QcXNkWGhldGtmOGNHMHFiS2ttVnZmMGYiLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLVBxc2RYaGV0a2Y4Y0cwcWJLa21WdmYwZiJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJtaWxleWNoZXJvMDgwNzM5QG91dGxvb2suZGUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImlhdCI6MTc3OTIwODI1MiwiaXNzIjoiaHR0cHM6Ly9hdXRoLm9wZW5haS5jb20iLCJqdGkiOiJhMDk5YjA0ZS0zMDZkLTRiNjAtOTZiMS1hMGFkZmM1Yzg4ZTIiLCJuYmYiOjE3NzkyMDgyNTIsInB3ZF9hdXRoX3RpbWUiOjE3NzkyMDgyNDg5NzMsInNjcCI6WyJvcGVuaWQiLCJlbWFpbCIsInByb2ZpbGUiLCJvZmZsaW5lX2FjY2VzcyIsIm1vZGVsLnJlcXVlc3QiLCJtb2RlbC5yZWFkIiwib3JnYW5pemF0aW9uLnJlYWQiLCJvcmdhbml6YXRpb24ud3JpdGUiXSwic2Vzc2lvbl9pZCI6ImF1dGhzZXNzX21DeFNac24wcEdUMW9lWml3MDg0VTBuRyIsInNsIjp0cnVlLCJzdWIiOiJhdXRoMHxCb2diSFJ4bDRuYWNET3lMeFBEZVpCdlEifQ.CuUrClgGL7RwttKis-Zrq_rTtEo5j0wljGEOr3VnE39kH4urCWAN_PU7mQWYyL3K6Rfrb2ZbBkq-L9dI4dzxoLRC86RVTiBAnn1hCXjkaGlAOBRRC0_Q2xL9cGPoI1h2TQm_vIWzXJmEVWtpfRIc1W8-2xnciMaTTvpcenlOMV_Nov2VbF6UTnxPz7WvFhq8Jhfso8oM2C_sP3d2_NLmOD7UDcoPoelH-kh3tC3eFXh72fXUiBqU_xskOP6hl9qkdieQUdGBNhrLJsVuYO0iuAbTjGUXJd8I--CxjBz34ynaG9CJFs7ThVmhfaNragHWS3t_K7r-exCdlT878DF9Kwl4oNyah_3XZiQVwek4qJNv79zxklnx5PPj_C7yQYsTjGPsRHUCGngWzaCqXUiWqr-gu2h_JO0OCkUUHTJLKFv1iHEL2uPW6QTAFEcO0skmoNSJWE-Yt0Rjr5RU909ygUTvpEje3WZCrErdoWlzwCObVgjr6A-okBMOHsc9qg9dGlbIVDvH76UYavqdBKnXCh2T8-3__ai9t8kPfXms3dcJe25xFkl-3xANGzTL4Ozw_irEtwWhfHG7yCl1cJ6MrBSDHOvwjk6rn7DyT6erXS_pVEfTn1lVlZTbFhSuozdCzLeqFL9OnldfPFHA47lGdgiYlN6Z_yjb3ddzlLstwSM",
+        "chatgpt_account_id": "e0ac479a-a6d5-4e09-8358-c547a7fa3a46",
+        "chatgpt_user_id": "user-PqsdXhetkf8cG0qbKkmVvf0f",
+        "email": "mileychero080739@outlook.de",
+        "expires_at": "2026-05-29T16:30:52+00:00",
+        "expires_in": 863994,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "mileychero080739@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T16:30:57.997511+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    },
+    {
+      "name": "brisaapicella369793@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA2NzY1MCwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6IjczNmFlZTc4LWIwNDYtNDhlNi04ZDY0LTU3ZmQ4MmZjMzRmZCIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1zUHVqTU50cEtCY1BXaUtPRU9NNzdleGZfXzczNmFlZTc4LWIwNDYtNDhlNi04ZDY0LTU3ZmQ4MmZjMzRmZCIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1zUHVqTU50cEtCY1BXaUtPRU9NNzdleGYiLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLXNQdWpNTnRwS0JjUFdpS09FT003N2V4ZiJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJicmlzYWFwaWNlbGxhMzY5NzkzQG91dGxvb2suZGUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImlhdCI6MTc3OTIwMzY1MCwiaXNzIjoiaHR0cHM6Ly9hdXRoLm9wZW5haS5jb20iLCJqdGkiOiJkNGZkMjMxNS03MzVlLTQzMGQtYjdlZi0wNzI4ZGYwMmI5OGYiLCJuYmYiOjE3NzkyMDM2NTAsInB3ZF9hdXRoX3RpbWUiOjE3NzkyMDM2NDY0MzEsInNjcCI6WyJvcGVuaWQiLCJlbWFpbCIsInByb2ZpbGUiLCJvZmZsaW5lX2FjY2VzcyIsIm1vZGVsLnJlcXVlc3QiLCJtb2RlbC5yZWFkIiwib3JnYW5pemF0aW9uLnJlYWQiLCJvcmdhbml6YXRpb24ud3JpdGUiXSwic2Vzc2lvbl9pZCI6ImF1dGhzZXNzX0ZUamVERHNCODdLSEJzRE5aR3IxWnJTMiIsInNsIjp0cnVlLCJzdWIiOiJhdXRoMHx5WDBzNEFUN0RxVlFZUVBhaW56a2JNdEgifQ.fpdDi5ag5JLIVGuYz0TmCqOd7cODDO1CtKXBlrAk9ekcJuu2SAMDLMRTQvdVsCLEZXxWsn7KEVlxMxTQhx1yBDhha88-qqGLGv2WhdIf3GxW3Gr5dLTjNyepB2hBzUS2xb5u5GfFSzjpFS8wI802fOyfd63nTOOZFsVu3yF40Q2JzEzjnpZob8Jl4Dg_poCBGts62CEnh-nKRxDHedcMnYSOo5FOIT7A4XVDi2YYy2DIzSATiXC6ibCwGLalHt8oTcPwdiSneqkpDsjciqT3jMlcbWDpjiWkxGPGqNVQDAUoI8npR66_NUS6eMw1ecDxYGFrNu5-pwwVFKepqLqSkyirlFt3HzkKMuXcUd0sjspDieQW2o4keBFlQ4Wj7lZb6H2QcaE-3-3UYPAyUBiTH9Yeg_zLuJOVrW1ti5pjdeRNy494qTgzeYzHxRikKwGXGHrXN_4wycIudAkCX3-ORORI-mvEtjXXwk0HMts6_drx6XY52ba1PfdF4UnqZvTZUY7J1O0VFYtHPq44NMVgSsRuFco40_NH3XgQiAeRlAtxphDtocfuAsPLRcKhevvGz6SEr4UwyAIT-kuI69dc3Csn56xMIy3ghIJFh0AjPct6gfBuopI19brKmRkDH8tyedOkRSWlshrMYqNmhVO24A54K5tPRfS3GTJM4STRt0k",
+        "chatgpt_account_id": "736aee78-b046-48e6-8d64-57fd82fc34fd",
+        "chatgpt_user_id": "user-sPujMNtpKBcPWiKOEOM77exf",
+        "email": "brisaapicella369793@outlook.de",
+        "expires_at": "2026-05-29T15:14:10+00:00",
+        "expires_in": 863994,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "brisaapicella369793@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T15:14:15.954825+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    },
+    {
+      "name": "marrionhaffer1744@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA2NzQzMiwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6IjNjNmIzMGFmLTlmYmQtNGNkMS1hMDQ1LWZkZGJjYTJlNTZhNyIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1NRndRZFB6TkpVSWF1V01uY20ybTlvc3RfXzNjNmIzMGFmLTlmYmQtNGNkMS1hMDQ1LWZkZGJjYTJlNTZhNyIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1NRndRZFB6TkpVSWF1V01uY20ybTlvc3QiLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLU1Gd1FkUHpOSlVJYXVXTW5jbTJtOW9zdCJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJtYXJyaW9uaGFmZmVyMTc0NEBvdXRsb29rLmRlIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJpYXQiOjE3NzkyMDM0MzIsImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiOTJlZjc3OGItMzIyYS00NTFiLTgwNDEtNDVhNzg3M2I4ODBlIiwibmJmIjoxNzc5MjAzNDMyLCJwd2RfYXV0aF90aW1lIjoxNzc5MjAzNDI5MjEwLCJzY3AiOlsib3BlbmlkIiwiZW1haWwiLCJwcm9maWxlIiwib2ZmbGluZV9hY2Nlc3MiLCJtb2RlbC5yZXF1ZXN0IiwibW9kZWwucmVhZCIsIm9yZ2FuaXphdGlvbi5yZWFkIiwib3JnYW5pemF0aW9uLndyaXRlIl0sInNlc3Npb25faWQiOiJhdXRoc2Vzc19zN1dYWDhWS1RrVzN0WHgzWnlvQnZPWnciLCJzbCI6dHJ1ZSwic3ViIjoiYXV0aDB8Rk54VW5uV1FhUll4eUtwWlZicDhUb2tqIn0.5EYDUpCBiSkdQKWJRVd9ZqLDF4QRalaVFgKb-AY-uIil5l1QJOzt5YhknpwkqSritQNKGtVR-LmQO6oeKjWc3St8fE3rrJrzESREqxlCZxM24usZcCcYTJxenDF0BRmV92nC9xVNbA0T4khxLxnxCVbLxSawtQ1dxWPbfgmRhshbL7eEfNnEEXoivDrOcBUJgRXehvcgERSMrgiWXcUiwn1QWUNbM4Ptg3tNrtd6cUg8rqRn6VUi7TXYzaMr6WfJtnMTuCzIKU_hQhYqZFFx9ZT3gUWQoCeqkO-qLJpcA_O_IsNEpwsX7oTyXNfowfaA_2lCcy1_p7XZiX-gj9lHyMdJ3O1DtEwA3dF62ojR0776ATSPcz5aZv7HSDgkQpH3tK5dVuG_B_xIgCmt-GFCQAWgaA4lE-1CxAiRd_uLq4Zzh2KLnhKXnKvpwq8w_F6zbHn-T1hnWTYJA0M8QD7gG3tH4yiPrODq4XMJlClgSNmwSylVUb5L3-V0pScKByjAwVLc6GYACJu0cYX5_kNUabL9Jk43STjnq3hvysyBC1d8RBy3e3tmY0IdJDNvusT8Sc644jX3ox057uQGJMquOskhvusx9WOabyLnO25rd--POi6J3HoFJwAM6OJd3OPYTuv-3emEZau24RY7pauAfvM0pjvWY2I88O64Eif2aPg",
+        "chatgpt_account_id": "3c6b30af-9fbd-4cd1-a045-fddbca2e56a7",
+        "chatgpt_user_id": "user-MFwQdPzNJUIauWMncm2m9ost",
+        "email": "marrionhaffer1744@outlook.de",
+        "expires_at": "2026-05-29T15:10:32+00:00",
+        "expires_in": 863994,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "marrionhaffer1744@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T15:10:37.686838+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    },
+    {
+      "name": "juliancambray6552@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA2Nzc1NSwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6IjhjM2U0MWFlLTA3ZTktNDdlZC05YTBiLWQ0ZjQwYTdiYWNlZSIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1WNGR0MHBPalVkRkU3clQwTXowNHJweEVfXzhjM2U0MWFlLTA3ZTktNDdlZC05YTBiLWQ0ZjQwYTdiYWNlZSIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1WNGR0MHBPalVkRkU3clQwTXowNHJweEUiLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLVY0ZHQwcE9qVWRGRTdyVDBNejA0cnB4RSJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJqdWxpYW5jYW1icmF5NjU1MkBvdXRsb29rLmRlIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJpYXQiOjE3NzkyMDM3NTUsImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiODViMmEwNmMtYjY5NC00YzRhLWFlODgtNmM1ZjE2ZjcxMGMzIiwibmJmIjoxNzc5MjAzNzU1LCJwd2RfYXV0aF90aW1lIjoxNzc5MjAzNzUyMDc0LCJzY3AiOlsib3BlbmlkIiwiZW1haWwiLCJwcm9maWxlIiwib2ZmbGluZV9hY2Nlc3MiLCJtb2RlbC5yZXF1ZXN0IiwibW9kZWwucmVhZCIsIm9yZ2FuaXphdGlvbi5yZWFkIiwib3JnYW5pemF0aW9uLndyaXRlIl0sInNlc3Npb25faWQiOiJhdXRoc2Vzc194N1JISXl5MDF3NmZTODR4WGVubGtWRTMiLCJzbCI6dHJ1ZSwic3ViIjoiYXV0aDB8ZWVua3l5OENBV0k3Sms2RzNieHladjNDIn0.gLAWUwkoHd1I_uuORZ9ojB4HOFFOkEPDTkQo6NAo80b1wrN0xvH9OxO0ZmiHANl35wgjY7B8PErU5iwkzPsyWxnLBpDpx6KEhSMZL-_ScTYV8uAD22PIFgQOOEZRB9Et8UidSbpWk6CiyYr4ghjmQNcXQu8tKArbJ8h3aTgkUiF8_SqjTc3QFNPTUylVdYU_IqLNDtRsXkytwiUsz5CFUDnX4D8JW0ksvN4oxABzjGF6kK_KvOSKk_43NA2bWsZk4DawmPMeDh2pLfD-cOBqZfOyzYq2NQBndUzkBK6JUw_juPgx41XEml9fP5KNTim1eyoxehrK8cE7IHhkqSWcfaxgKM717OxvINmTHqGZMiEminNcV1IEZKpDd4uYNwpYo6fb_mLH4XC1b7pGP0NAzQtmhFsalFYFxZ1gLMzAqP0Ja3gtfl_oB9HZSFBclrFk2Fu7VOcFKA4oPaO0OSjcEKbqgVgNAbQ6yMCJxJ75UHTz2Zain9-y9VqFC5HP7NXPe3wlBeiG5tP7khchoZ7jqRsivHmafk4tYVUabqdsvqRljzSIYDKP97V5Fr0Bhegmsn9CyzLG8I91Tzrh0npMuXIAqIIJMEDpPi7nZ9J5Ym4QqlWLm0FLAR6mCnkA76Vea6e6lEu3S8m4aFyNo5z1ICFzPELY_gKekdEMpIoVAVg",
+        "chatgpt_account_id": "8c3e41ae-07e9-47ed-9a0b-d4f40a7bacee",
+        "chatgpt_user_id": "user-V4dt0pOjUdFE7rT0Mz04rpxE",
+        "email": "juliancambray6552@outlook.de",
+        "expires_at": "2026-05-29T15:15:55+00:00",
+        "expires_in": 863995,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "juliancambray6552@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T15:15:59.391347+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    },
+    {
+      "name": "osaphu846166@outlook.de",
+      "platform": "openai",
+      "type": "oauth",
+      "credentials": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfWDh6WTZ2VzJwUTl0UjNkRTduSzFqTDVnSCIsImV4cCI6MTc4MDA2NzAwMCwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6IjkyMzY0ZjQ3LTc5MmUtNDBlMi1hMjNiLWUyMDgxODI4YzUyNiIsImNoYXRncHRfYWNjb3VudF91c2VyX2lkIjoidXNlci1SYUhjQmFTajRzZHV3RlZyc2c5RkZoemhfXzkyMzY0ZjQ3LTc5MmUtNDBlMi1hMjNiLWUyMDgxODI4YzUyNiIsImNoYXRncHRfY29tcHV0ZV9yZXNpZGVuY3kiOiJub19jb25zdHJhaW50IiwiY2hhdGdwdF9wbGFuX3R5cGUiOiJmcmVlIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1SYUhjQmFTajRzZHV3RlZyc2c5RkZoemgiLCJpc19zaWdudXAiOnRydWUsInVzZXJfaWQiOiJ1c2VyLVJhSGNCYVNqNHNkdXdGVnJzZzlGRmh6aCJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJvc2FwaHU4NDYxNjZAb3V0bG9vay5kZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwiaWF0IjoxNzc5MjAyOTk5LCJpc3MiOiJodHRwczovL2F1dGgub3BlbmFpLmNvbSIsImp0aSI6ImRhMWJhZTNkLWQ4MjgtNDlkNi05YmY4LTFmYWU4ZDBmMTQ1OCIsIm5iZiI6MTc3OTIwMjk5OSwicHdkX2F1dGhfdGltZSI6MTc3OTIwMjk5NjM4NSwic2NwIjpbIm9wZW5pZCIsImVtYWlsIiwicHJvZmlsZSIsIm9mZmxpbmVfYWNjZXNzIiwibW9kZWwucmVxdWVzdCIsIm1vZGVsLnJlYWQiLCJvcmdhbml6YXRpb24ucmVhZCIsIm9yZ2FuaXphdGlvbi53cml0ZSJdLCJzZXNzaW9uX2lkIjoiYXV0aHNlc3NfS0EyaUJwN1FZdWZoUFFxcFNSOVh3YlIxIiwic2wiOnRydWUsInN1YiI6ImF1dGgwfEZGSUxPYnVreENLWWsyRzBhdVc5ekcxVSJ9.50p9eN0N2QtwqDzwk6r9lGCsb2dVqEmx1SbalkO8xShVGPBs80GCyNVfPP8GLM0sy3jkuq1aamUwz98Sa4ND6SSfqaZQed_cDbhndbMprR9eEfo_QL9RBYFTydxSi_sFG-1hOvhIN10TUkxfeZI7bf7XogVGfYN_8O9XkAKGPCOI8kSBoWtXR8AWtthuch9Tg1qjx9N6c9jjVMji8AOTxWlWmUyjcfMKZp6afRdosXmX0_FN0zG6nvGWkANi1e7v3fledZEA7VgALQ6FWPatjR64Dbw9xaeKYkNN1sUAFhs8WswNUxILYdSRd4wQPmZu8vjt0gDpyeHax7Pdv6C4AtE6KLl1490jVaa8lFZmYkhCvifCtP1njGIgC1GcPIzZfSnpDV93rMOzcL-N84rtPIeNfbBslVclp30p2MBDoADO_xPTu0twIlVA7TQ3_vTybBAQaQbjno8dW-qE7ciUBh1siR05Kadidc3oilfIcuWJATMK0vZP3LUAmfANf_CC5pgU2Dq6OYBKqiYZrPWAEcp33F4CRxEf_ZswjXSwwzTAppSnWnAg88i1y5t3jPt-Lt7NBRPNXaIAqAz4x1pc2fEqBWkxsFXfOQhS6uHLO5fzqPmEVwSDJ7O7MBGiPBncWKu3bhR8YxAW81mAoiIc9lxr17dNV8bTWvtArxsmzNM",
+        "chatgpt_account_id": "92364f47-792e-40e2-a23b-e2081828c526",
+        "chatgpt_user_id": "user-RaHcBaSj4sduwFVrsg9FFhzh",
+        "email": "osaphu846166@outlook.de",
+        "expires_at": "2026-05-29T15:03:20+00:00",
+        "expires_in": 863994,
+        "plan_type": "plus"
+      },
+      "extra": {
+        "email": "osaphu846166@outlook.de",
+        "source": "register_session",
+        "last_refresh": "2026-05-19T15:03:25.981567+00:00"
+      },
+      "concurrency": 10,
+      "priority": 1
+    }
+  ],
+  "exported_at": "2026-05-20T02:31:27Z",
+  "proxies": []
+}
